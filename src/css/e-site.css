@@ -1,0 +1,254 @@
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.signin-text {
+	font-size: 50px;
+	text-align: center;
+}
+
+.franchisename {
+	font-size: 40px;
+}
+
+main-options table,tr,td {
+	text-align: left;
+}
+
+.error_tooltip {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+	color: #fff;
+	font-size: 14px;
+	margin: auto auto auto 5%;
+	padding: 13px 0px;
+	position: absolute;
+	text-align: center;
+	width: 90%;
+	bottom: 50px;
+	display: none;
+}
+
+
+
+
+.infotable {
+    width: 100%;
+}
+
+.infotable td{
+    padding:10px;
+	width:51%;
+}
+
+.infotable tr.alt td {
+    color: #000000;
+    background-color: #FFF69C;
+}
+
+.accounttable {
+    }
+
+.accounttable td{
+
+font-size: 12px;
+}
+
+
+#popupSearch-popup{
+   
+    width:70%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#popupaddimage-popup{
+   
+    width: 95%;
+	text-align:center;
+}
+
+#popupLogin-popup{
+   
+    width: 90%;
+		text-align:center;
+}
+
+
+#popupdialogue1-popup{
+   
+    width: 90%;
+		text-align:center;
+}
+ 
+
+#popupdialogue2-popup{
+   
+    width: 90%;
+		text-align:center;
+}
+
+#popupdialogue3-popup{
+   
+    width: 90%;
+		text-align:center;
+}
+
+#popupdialogue4-popup{
+   
+    width: 90%;
+		text-align:center;
+}
+
+#popupdialogue5-popup{
+   
+    width: 90%;
+		text-align:center;
+}
+
+#popupdialogue-popup{
+   
+    width: 90%;
+	text-align:center;
+}
+
+.popupLogin{
+   
+    background: #ffffff !important;
+	
+}
+
+#popupRegister-popup{
+   
+    width: 90%;
+}
+
+
+                 
+
+#bgtr{
+
+/* background: rgba(255, 255, 255, 0) !important; */
+ padding: 1em;
+}
+
+
+.warpheader{
+	height:35px;padding-top:3px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+height:35px;
+padding-top:3px;
+padding-bottom:3px;
+}
+
+
+.pagetitle{
+font-size:30px;
+color:#34495e;
+}
+
+.viewfield{
+font-size:16px;
+color:#34495e;
+background: #ffffff;
+border: 1px solid #bbb;
+margin-top:8px;
+margin-bottom:8px;
+border-radius: 5px;
+padding-top: 8px;
+padding-bottom:8px;
+padding-left:3px;
+}
+.viewfield2{
+font-size:16px;
+color:#34495e;
+background: #ffffff;
+border: 1px solid #bbb;
+margin-top:8px;
+margin-bottom:8px;
+border-radius: 5px;
+padding-top: 0px;
+padding-bottom:0px;
+padding-left:3px;
+}
+
+.welcomestyle{
+color:#34495e;
+}
+
+.namestyle{
+color:#34495e;
+font-size:24px;
+font-weight: bold !important;
+}
+
+.mainsearch{
+height:32px !important;
+}
+
+
+.not_table{
+background-color: #dbdbdb ;
+border: 1px solid white;
+color:#4A4949;
+font-size:14px;
+padding-top:.5em;
+padding-bottom:.5em;
+}
+
+.not_div{
+background-color: #494949 !important;
+}
+
+
+.ui-badge-container {
+  position: relative;
+ }
+
+.badge {
+  background: #BA070F;
+  color: #fff;
+  padding: 1px 5px;
+  position: absolute;
+  right: -5px;
+  top: -12px;
+  z-index: 999;
+  border-radius: 5em;
+  border: 2px solid #fff;
+  font-size:10px;
+}
+
+.notlabel{
+
+font-size:16px;
+color:#34495e;
+padding-left:7px;
+padding-right:7px;
+font-weight: bold ;
+background: #fff;
+
+
+}
+
+
+
+.searchtable{
+width: 95%;
+background:#ffffff;
+border:2px solid grey;
+color:black;
+margin-left:auto; 
+margin-right:auto;
+padding:5px;
+
+}
+
+.searchtabletd{
+font-size:12px;
+color:grey;
+}

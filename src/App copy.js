@@ -7,22 +7,17 @@ import LicenseComponent from './components/LicenseComponent';
 import HeaderComponent from './components/HeaderComponent';
 class App extends Component {
 
-  constructor(props){
-    super(props);
-    this.state={}
-  }
 
+  componentDidUpdate() {
 
-  componentDidMount() {
-    console.log("toekek")
     const msg = firebase.messaging();
-     msg.requestPermission().then(() => {
+    msg.requestPermission().then(() => {
       return msg.getToken();
     }).then((data) => {
-      console.log("token", data)
+      console.warn("token", data)
     })
   }
-  
+
 
 
   render() {
@@ -30,7 +25,7 @@ class App extends Component {
     return (
       <div >
         <HeaderComponent />
-       <LicenseComponent />
+        <LicenseComponent />
       </div>
     );
   }
